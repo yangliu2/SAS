@@ -1,0 +1,6 @@
+data log;
+	do N=1 to 20;
+		LogN = LOG(N);
+		output;
+	end;
+run;
